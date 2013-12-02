@@ -1,0 +1,15 @@
+{
+  "name": "boilerplate-karma-mocha-chai-requirejs",
+  "description": "Redy to use test-framework boilerplate for karma-runner, mocha, chai, requirejs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "requirejs": "latest",
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "karma-mocha": "latest",
+    "karma-html-reporter": "latest"
+  }
+}
