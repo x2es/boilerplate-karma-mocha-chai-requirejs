@@ -14,7 +14,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'node_modules/chai/chai.js', included: false},
+      {pattern: 'node_modules/**/*.js', included: false},   // allow to load any *.js from node_modules by karma web-server
 
       'test/test-main.js',
       {pattern: 'js/spec/*.js', included: false},
