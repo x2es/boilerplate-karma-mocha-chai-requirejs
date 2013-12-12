@@ -6,6 +6,10 @@ define(['chai'], function(chai) {
     it('should...', function() {
       expect('a').to.equal('a');
     });
+
+    it('should...', function() {
+      expect('a').to.equal('a');
+    });
   });
 });
 

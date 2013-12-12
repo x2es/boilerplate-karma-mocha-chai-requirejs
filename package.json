@@ -10,6 +10,7 @@
     "mocha": "latest",
     "chai": "latest",
     "karma-mocha": "latest",
-    "karma-html-reporter": "latest"
+    "karma-html-reporter": "latest",
+    "karma-mp3-reporter": "https://github.com/x2es/karma-mp3-reporter/tarball/master"
   }
 }
