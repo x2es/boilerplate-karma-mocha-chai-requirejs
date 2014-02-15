@@ -2,7 +2,7 @@
   "private": true,
   "name": "boilerplate-karma-mocha-chai-requirejs",
   "description": "Redy to use test-framework boilerplate for karma-runner, mocha, chai, requirejs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Konstantin Ivanov [x@ES] <KEIvanov@gmail.com>",
   "license": "MIT",
 
