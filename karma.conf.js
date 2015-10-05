@@ -20,7 +20,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'node_modules/sinon/pkg/sinon.js',                    // sinon will be accessable from global context
       {pattern: 'node_modules/**/*.js', included: false},   // allow to load any *.js from node_modules by karma web-server
 
       'test/test-main.js',
@@ -38,7 +37,8 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['progress', 'mp3', 'html'],
+    // reporters: ['progress', 'mp3', 'html'],
+    reporters: ['progress'],
 
     // uncomment this for redefine mp3-reporter sound files
     // ====================================================
@@ -78,7 +78,7 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Chrome'],
+    browsers: [],
 
 
     // If browser does not capture in given timeout [ms], kill it

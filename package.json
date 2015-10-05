@@ -2,7 +2,7 @@
   "private": true,
   "name": "boilerplate-karma-mocha-chai-requirejs",
   "description": "Redy to use test-framework boilerplate for karma-runner, mocha, chai, requirejs",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Konstantin Ivanov [x@ES] <KEIvanov@gmail.com>",
   "license": "MIT",
 
@@ -19,15 +19,20 @@
   ],
 
   "dependencies": {
-    "requirejs": "latest"
+    "requirejs": "~2.1.20"
   },
   "devDependencies": {
-    "karma": "latest",
-    "karma-mocha": "latest",
-    "chai": "latest",
-    "sinon": "latest",
-    "karma-html-reporter": "latest",
-    "karma-mp3-reporter": "latest"
+    "karma": "~0.13.10",
+    "karma-mocha": "~0.2.0",
+    "karma-requirejs": "~0.2.2",
+    "mocha": "~2.3.3",
+    "chai": "~3.3.0",
+    "sinon": "~1.17.1"
+  },
+
+  "__disabledDependencies": {
+    "karma-html-reporter": "~0.2.6",
+    "karma-mp3-reporter": "~1.0.0"
   },
 
   "homepage": "https://github.com/x2es/boilerplate-karma-mocha-chai-requirejs",

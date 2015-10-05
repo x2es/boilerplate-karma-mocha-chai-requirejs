@@ -1,4 +1,12 @@
 
+Deprecation note
+================
+
+Since ES6/7 with babel+webpack/browserefy becomes usefull this days RequireJS looks a bit outdated.
+
+ReactJS community have a lot of sample code written in ES6/7 in isomorphic style.
+
+
 Boilerplate for Karma-runner + mocha + chai + requirejs
 =======================================================
 
