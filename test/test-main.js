@@ -30,7 +30,8 @@
       baseUrl: baseUrl,
 
       paths: {
-        'chai': 'node_modules/chai/chai'
+        'chai':  'node_modules/chai/chai',
+        'sinon': 'node_modules/sinon/pkg/sinon'
       },
 
       // ask Require.js to load these files (all our tests)

@@ -1,5 +1,5 @@
 
-define(['chai'], function(chai) {
+define(['chai', 'sinon'], function(chai, sinon) {
   var expect = chai.expect;
 
   describe('bootstrap', function() {
